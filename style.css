@@ -1,0 +1,17 @@
+
+
+a:link{
+        color: blueviolet;
+        background-color: transparent;
+        text-decoration: double;
+    }
+a:visited{
+    color:darkmagenta;
+    background-color: transparent;
+    text-decoration: dashed;
+}
+a:active{
+    color:darkorchid;
+    background-color: transparent;
+    
+}
