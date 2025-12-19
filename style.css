@@ -171,8 +171,18 @@ h3 {
     position: relative;
 }
 
-/* Prevent any accidental image borders and ensure footer has no unexpected border */
+
 img { border: 0; display: block; }
+
+.pfp {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255,255,255,0.12);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.45);
+    margin-bottom: 1rem;
+}
 
 footer {
     border-top: none;
